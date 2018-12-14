@@ -27,9 +27,7 @@ const Product = () => (
           <br />
           <br />
             One of the greatest features of this product is that your friends and family will not know which group you have placed them in! Your information is safe with I-C-It.
-
           </p>
-
         </Col>
 
 

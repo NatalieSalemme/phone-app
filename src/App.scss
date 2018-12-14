@@ -10,6 +10,9 @@ html {
 .App {
   text-align: center;
 }
+.nav-link:hover {
+  text-decoration: underline;
+}
 .opening-jumbotron {
   height: 105vh;
   margin-top: -2em;
@@ -29,9 +32,6 @@ html {
   height: 20em;
   background-color: gray;
 }
-.product-container {
-  height: 51em;
-}
 .product-content {
   margin-top: 5em;
   p {
@@ -43,4 +43,48 @@ html {
 }
 .product-img {
   height: 94vh;
+}
+.identity-container {
+  background-color: lightgray;
+  h1{
+    font-weight: 200;
+    font-size: 50px;
+    padding-top: 2em;
+  }
+  h3 {
+    font-weight: 200;
+    font-size: 30px;
+    margin: 1.5em 0 2em 0;
+  }
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 3em;
+}
+.card {
+  border: 1px solid lightgray;
+  margin-bottom: 1em;
+  background-color: white;
+  width: 40em;
+  height: 20em;
+  min-height: 15em;
+
+  h1 {
+    color: lightblue;
+    margin: -1.5em 0 .5em 0;
+  }
+  li {
+    text-align: left;
+    font-size: 17px;
+    color: gray;
+    font-weight: 300;
+    padding-left: 1.2em;
+    list-style-type: none;
+  }
+  li::before {
+    content: '-'
+  }
+
 }

@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import './App.scss';
-import Menu from './Menu';
-import Opening from './Opening';
-import Steps from './Steps';
-import Product from './Product';
+import Menu from './components/Menu';
+import Opening from './components/Opening';
+import Steps from './components/Steps';
+import Product from './components/Product';
+import Identity from './components/Identity';
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
         <Opening />
         <Steps />
         <Product />
+        <Identity />
       </div>
     );
   }
