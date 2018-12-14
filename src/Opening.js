@@ -2,17 +2,17 @@ import React from 'react';
 import { Jumbotron, Button, Image, Row, Col } from 'react-bootstrap';
 
 const Opening = () => (
-  <Jumbotron className="opening-jumbotron mt-2">
+  <Jumbotron className="opening-jumbotron" id="home">
     <Row className="opening-row">
-      <Col md={4}>
+      <Col md={4} mdOffset={2}>
         <h1>Staying In Touch Everyday</h1>
+        <br />
         <p>
           I-C-It is your place for sharing, storing photos, and keeping in touch
           with friends.
         </p>
-        <p>
-          <Button bsStyle="primary">Coming Soon</Button>
-        </p>
+          <Button bsStyle="primary" className="opening-btn">Coming Soon</Button>
+
       </Col>
 
       <Col md={4}>

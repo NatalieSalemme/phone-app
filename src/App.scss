@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+.App {
+  text-align: center;
+}
+.opening-jumbotron {
+  height: 105vh;
+  margin-top: -2em;
+  background-color: rgb(62, 183, 215);
+}
+.opening-row {
+  margin-top: 9em;
+  color: white;
+}
+.opening-btn {
+  margin-top: 1em;
+  font-size: 24px;
+}
+
+.steps-container {
+  margin-top: -2.5em;
+  height: 20em;
+  background-color: gray;
+}
+.product-container {
+  height: 51em;
+}
+.product-content {
+  margin-top: 5em;
+  p {
+    color: gray;
+    font-size: 17px;
+    text-align: left;
+    padding-bottom: 1em;
+  }
+}
+.product-img {
+  height: 94vh;
+}
