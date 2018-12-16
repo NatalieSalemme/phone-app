@@ -4,7 +4,7 @@ import { Jumbotron, Button, Image, Row, Col } from 'react-bootstrap';
 const Opening = () => (
   <Jumbotron className="opening-jumbotron" id="home">
     <Row className="opening-row">
-      <Col md={4} mdOffset={2}>
+      <Col md={4} mdOffset={2} style={{marginTop: '4em'}}>
         <h1>Staying In Touch Everyday</h1>
         <br />
         <p>
@@ -18,7 +18,9 @@ const Opening = () => (
 
       <Col md={4}>
         <Image
-          src="https://images.unsplash.com/photo-1425315283416-2acc50323ee6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+          className="opening-img"
+          alt="Phone"
+          src="http://www.stickpng.com/assets/images/58aefaaac869e092af51ee66.png"
           responsive
         />
       </Col>

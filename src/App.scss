@@ -22,6 +22,11 @@ html {
   margin-top: 9em;
   color: white;
 }
+.opening-img {
+  height: 35em;
+  margin: -2em 0 0 4em;
+}
+
 .opening-btn {
   margin-top: 1em;
   font-size: 24px;
@@ -109,14 +114,16 @@ html {
   margin-top: .4em;
 }
 .technology-container {
-  background-color: rgb(62, 183, 215);
+  background-image: linear-gradient(to right, #8BC8F8, #37A4FB, #18478C);
   height: 45em;
   h1 {
+
     color: white;
     font-size: 65px;
     margin-top: 1em;
   }
   h3 {
+
     color: white;
     margin-bottom: 2em;
   }
@@ -125,6 +132,7 @@ html {
     font-weight: lighter;
     color: white;
     margin-bottom: .7em;
+    line-height: 2;
   }
 }
 
