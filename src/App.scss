@@ -108,3 +108,213 @@ html {
   font-size: 44px;
   margin-top: .4em;
 }
+.technology-container {
+  background-color: rgb(62, 183, 215);
+  height: 45em;
+  h1 {
+    color: white;
+    font-size: 65px;
+    margin-top: 1em;
+  }
+  h3 {
+    color: white;
+    margin-bottom: 2em;
+  }
+  p {
+    text-align: left;
+    font-weight: lighter;
+    color: white;
+    margin-bottom: .7em;
+  }
+}
+
+.technology-img {
+  width: 45em;
+  height: 45em;
+  margin-left: -7em;
+}
+
+
+
+
+// * {
+//   margin: 0;
+//   padding: 0;
+// }
+//
+//
+// html {
+//   scroll-behavior: smooth;
+// }
+// .App {
+//   text-align: center;
+// }
+// .main-menu {
+//   height: 5em;
+// }
+// .nav-link:hover {
+//   text-decoration: underline;
+// }
+// .opening-jumbotron {
+//   max-height: 105vh;
+//   margin-top: -2em;
+//   background-color: rgb(62, 183, 215);
+// }
+// .opening-row {
+//   margin-top: 9em;
+//   color: white;
+// }
+// .opening-btn {
+//   margin-top: 1em;
+//   font-size: 24px;
+// }
+//
+//
+// .product-content {
+//   margin-top: 5em;
+//   p {
+//     color: gray;
+//     font-size: 17px;
+//     text-align: left;
+//     padding-bottom: 1em;
+//   }
+// }
+// .product-img {
+//   height: 94vh;
+// }
+// .identity-container {
+//   background-color: #DCDCDC;
+//   h1{
+//     font-weight: 200;
+//     font-size: 50px;
+//     padding-top: 2em;
+//   }
+//   h3 {
+//     font-weight: 200;
+//     font-size: 30px;
+//     margin: 1.5em 0 2em 0;
+//   }
+// }
+// .opening-jumbotron {
+//   max-height: 105vh;
+//   // margin-top: -2em;
+//   // background-color: rgb(62, 183, 215);
+// }
+// .card-container {
+//   display: flex;
+//   flex-wrap: wrap;
+//   justify-content: space-around;
+//   margin-top: 3em;
+// }
+// .card {
+//   border: 1px solid lightgray;
+//   margin-bottom: 1em;
+//   background-color: white;
+//   width: 40em;
+//   height: 20em;
+//   min-height: 15em;
+//
+//   h1 {
+//     color: darken(lightblue, 40%);
+//     margin: -1.5em 0 .5em 0;
+//   }
+//   li {
+//     text-align: left;
+//     font-size: 17px;
+//     color: gray;
+//     font-weight: 300;
+//     padding-left: 1.2em;
+//     list-style-type: none;
+//   }
+//   li::before {
+//     content: '-'
+//   }
+// }
+// .steps-container {
+//   display: flex;
+//   align-items: center;
+//   flex-direction: row;
+//   justify-content: space-around;
+//   margin-top: -2.5em;
+//   // height: 20em;
+//   min-height: 20em;
+//
+//   background-color: #DCDCDC;
+// }
+// .step {
+//   // background-color: white;
+//   width: 24em;
+//   height: 16em;
+//   display: flex;
+//   h1 {
+//     width: 1em;
+//     margin-right: .5em;
+//     font-size: 44px;
+//   }
+// }
+// .icon {
+//   font-size: 44px;
+//   margin-top: .4em;
+// }
+//
+// /*----- MEDIA QUERIES -----*/
+//
+// /* Extra small devices (phones, 600px and down) */
+// @media only screen and (max-width: 600px) {
+//   body {
+//     background-color: blue;
+//   }
+//   .opening-image {
+//     height: 20em;
+//     width: 20em;
+//     margin: auto;
+//     margin-top: 1em;
+//     padding-bottom: 3em;
+//   }
+//   .identity-video {
+//     width: 350;
+//     height: 250;
+//   }
+// }
+//
+// /* Small devices (portrait tablets and large phones, 600px and up) */
+// @media only screen and (min-width: 600px) {
+//   body {
+//     background-color: green;
+//   }
+//   // .opening-image {
+//   //   height: 20em;
+//   //   width: 20em;
+//   //   margin: auto;
+//   //   margin-top: 1em;
+//   //   padding-bottom: 3em;
+//   // }
+// }
+//
+// /* Medium devices (landscape tablets, 768px and up) */
+// @media only screen and (min-width: 768px) {
+//   body {
+//     background-color: red;
+//   }
+//
+//
+// }
+//
+// /* Large devices (laptops/desktops, 992px and up) */
+// @media only screen and (min-width: 992px) {
+//   body {
+//     background-color: purple;
+//   }
+//
+// }
+//
+// /* Extra large devices (large laptops and desktops, 1200px and up) */
+// @media only screen and (min-width: 1200px) {
+// body {
+//   background-color: orange;
+// }
+//
+// }
+//
+//
+// /*----- MEDIA QUERIES -----*/

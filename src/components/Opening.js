@@ -11,8 +11,9 @@ const Opening = () => (
           I-C-It is your place for sharing, storing photos, and keeping in touch
           with friends.
         </p>
-          <Button bsStyle="primary" className="opening-btn">Coming Soon</Button>
-
+        <Button bsStyle="primary" className="opening-btn">
+          Coming Soon
+        </Button>
       </Col>
 
       <Col md={4}>
