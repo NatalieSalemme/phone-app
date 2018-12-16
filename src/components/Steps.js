@@ -1,6 +1,6 @@
 import React from 'react';
 import Step from './Step';
-import { Grid, Row, Col } from 'react-bootstrap';
+
 
 import {
   faDownload,

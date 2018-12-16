@@ -12,6 +12,7 @@ const Identity = () => (
       width="750"
       height="450"
       src="https://www.youtube.com/embed/znz8o-boH0E"
+      title="Phone review"
       frameborder="0"
       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen

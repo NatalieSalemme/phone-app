@@ -1,5 +1,5 @@
 import React from 'react';
-import { Jumbotron, Row, Col, Button, Image } from 'react-bootstrap';
+import { Row, Col, Image } from 'react-bootstrap';
 
 const Product = () => (
   <div className="product-container" id="product">

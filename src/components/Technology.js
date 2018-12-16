@@ -1,5 +1,5 @@
 import React from 'react';
-import { Jumbotron, Col } from 'react-bootstrap';
+import { Col } from 'react-bootstrap';
 
 const Technology = () => (
   <div className="technology-container">
@@ -21,7 +21,7 @@ const Technology = () => (
 
         <br />
         <p>We offer state of the art technology that lets users have the option to integrate the contacts from their phone, email, or social media with I-C-It. From here, our technology is able to suggest which groups you should categorize connections. Connections can only be in 1 group, so you don't have to worry about accidentally adding someone to another group.</p>
-  
+
       </div>
     </Col>
   </div>

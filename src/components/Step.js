@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Col } from 'react-bootstrap';
+import { Col } from 'react-bootstrap';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
