@@ -228,165 +228,20 @@ html {
   }
 }
 
-
 .vision-back-img {
-  margin: 13em 0 0 -3em;
-  width: 500px;
   height: 500px;
+  width: 500px;
+  margin: 13em 0 0 -8em;
+}
+.vision-front-img {
+  height: 700px;
+  width: 700px;
   position: relative;
-  -webkit-animation-name: fadeUp; /* Safari 4.0 - 8.0 */
-  -webkit-animation-direction: reverse;
-  -webkit-animation-duration: 1.5s; /* Safari 4.0 - 8.0 */
-  animation-name: fadeUp;
-  animation-duration: 1.5s;
-  animation-direction: reverse;
-}
-
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes fadeUp {
-  0%   {background-color:red; left:0px; top:0px;}
-  25%  {background-color:yellow; left:200px; top:0px;}
-  50%  {background-color:blue; left:200px; top:200px;}
-  75%  {background-color:green; left:0px; top:200px;}
-  100% {background-color:orange; left:0px; top:0px;}
-}
-
-/* Standard syntax */
-@keyframes fadeUp {
-  // 0%   {background-color:red; left:0px; top:0px;}
-  0%  {right:0px; top:0px;}
-  100% {left:0px; top:700px;}
-
+  left: -50px;
+  bottom: 600px;
 }
 
 
-
-// .vision-front-img {
-//   margin-top: 15em;
-//
-// }
-
-
-// * {
-//   margin: 0;
-//   padding: 0;
-// }
-//
-//
-// html {
-//   scroll-behavior: smooth;
-// }
-// .App {
-//   text-align: center;
-// }
-// .main-menu {
-//   height: 5em;
-// }
-// .nav-link:hover {
-//   text-decoration: underline;
-// }
-// .opening-jumbotron {
-//   max-height: 105vh;
-//   margin-top: -2em;
-//   background-color: rgb(62, 183, 215);
-// }
-// .opening-row {
-//   margin-top: 9em;
-//   color: white;
-// }
-// .opening-btn {
-//   margin-top: 1em;
-//   font-size: 24px;
-// }
-//
-//
-// .product-content {
-//   margin-top: 5em;
-//   p {
-//     color: gray;
-//     font-size: 17px;
-//     text-align: left;
-//     padding-bottom: 1em;
-//   }
-// }
-// .product-img {
-//   height: 94vh;
-// }
-// .identity-container {
-//   background-color: #DCDCDC;
-//   h1{
-//     font-weight: 200;
-//     font-size: 50px;
-//     padding-top: 2em;
-//   }
-//   h3 {
-//     font-weight: 200;
-//     font-size: 30px;
-//     margin: 1.5em 0 2em 0;
-//   }
-// }
-// .opening-jumbotron {
-//   max-height: 105vh;
-//   // margin-top: -2em;
-//   // background-color: rgb(62, 183, 215);
-// }
-// .card-container {
-//   display: flex;
-//   flex-wrap: wrap;
-//   justify-content: space-around;
-//   margin-top: 3em;
-// }
-// .card {
-//   border: 1px solid lightgray;
-//   margin-bottom: 1em;
-//   background-color: white;
-//   width: 40em;
-//   height: 20em;
-//   min-height: 15em;
-//
-//   h1 {
-//     color: darken(lightblue, 40%);
-//     margin: -1.5em 0 .5em 0;
-//   }
-//   li {
-//     text-align: left;
-//     font-size: 17px;
-//     color: gray;
-//     font-weight: 300;
-//     padding-left: 1.2em;
-//     list-style-type: none;
-//   }
-//   li::before {
-//     content: '-'
-//   }
-// }
-// .steps-container {
-//   display: flex;
-//   align-items: center;
-//   flex-direction: row;
-//   justify-content: space-around;
-//   margin-top: -2.5em;
-//   // height: 20em;
-//   min-height: 20em;
-//
-//   background-color: #DCDCDC;
-// }
-// .step {
-//   // background-color: white;
-//   width: 24em;
-//   height: 16em;
-//   display: flex;
-//   h1 {
-//     width: 1em;
-//     margin-right: .5em;
-//     font-size: 44px;
-//   }
-// }
-// .icon {
-//   font-size: 44px;
-//   margin-top: .4em;
-// }
-//
 // /*----- MEDIA QUERIES -----*/
 //
 // /* Extra small devices (phones, 600px and down) */

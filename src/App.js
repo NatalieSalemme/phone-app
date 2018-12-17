@@ -16,6 +16,7 @@ class App extends Component {
         <Opening />
         <Steps />
         <Product />
+
         <Identity />
         <Technology />
         <Vision />
