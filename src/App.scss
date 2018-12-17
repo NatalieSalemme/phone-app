@@ -16,28 +16,61 @@ html {
 .opening-jumbotron {
   height: 105vh;
   margin-top: -2em;
-  background-color: rgb(62, 183, 215);
+  // background-image: linear-gradient(to right, #8BD3F8, rgb(62,183,215));
+   background-image: linear-gradient(to right, rgb(62,183,215), #8BD3F8, #8BF8F7, );
+  // background-color: rgb(62, 183, 215);
 }
 .opening-row {
   margin-top: 9em;
   color: white;
 }
-// .opening-img {
-//   height: 35em;
-//   margin: -2em 0 0 4em;
-// }
+
+  .opening-header,
+  .opening-p,
+  .opening-btn {
+    position: relative;
+    -webkit-animation-name: fade; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1.5s; /* Safari 4.0 - 8.0 */
+    // -webkit-animation-direction: reverse; /* Safari 4.0 - 8.0 */
+    animation-name: fade;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    animation-duration: 1.5s;
+  }
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes fade {
+  0%   {background-color:red; left: 300; top:0px;}
+   50%  {background-color:blue; left:200px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes fade {
+  0%   {left: -200px; top:0px;}
+
+  100% {left: 0px; top:0px;}
+}
+
+
+
+
+
+
+
 .opening-img {
   height: 35em;
   margin: -2em 0 0 4em;
   position: relative;
   -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
-  -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1.5s; /* Safari 4.0 - 8.0 */
   -webkit-animation-direction: reverse; /* Safari 4.0 - 8.0 */
   animation-name: example;
   -webkit-animation-timing-function: linear;
   animation-timing-function: linear;
-  animation-duration: 2s;
+  animation-duration: 1.5s;
   animation-direction: reverse;
+  // animation-delay: 2s;
 }
 
 /* Safari 4.0 - 8.0 */

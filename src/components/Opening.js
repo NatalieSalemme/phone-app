@@ -6,9 +6,9 @@ const Opening = () => (
   <div className="divex"></div>
     <Row className="opening-row">
       <Col md={4} mdOffset={2} style={{marginTop: '4em'}}>
-        <h1>Staying In Touch Everyday</h1>
+        <h1 className="opening-header">Staying In Touch Everyday</h1>
         <br />
-        <p>
+        <p className="opening-p">
           I-C-It is your place for sharing, storing photos, and keeping in touch
           with friends.
         </p>
