@@ -2,7 +2,8 @@ import React from 'react';
 import { Row, Col, Image } from 'react-bootstrap';
 
 const Product = () => (
-  <div className="product-container" id="product">
+  <div id="product">
+  <div className="product-container" >
 
       <Row>
         <Col md={4}>
@@ -14,7 +15,7 @@ const Product = () => (
           />
         </Col>
         <Col md={4} mdOffset={2} className="product-content" >
-          <h1>Share memories, create different groups for the people you know</h1>
+          <h1>Share memories, create different groups</h1>
           <br />
           <p>
             Our unique product allows users to create different profiles for the different groups in their life, whether that be for friends, family, or co-workers.
@@ -32,6 +33,7 @@ const Product = () => (
 
 
       </Row>
+  </div>
   </div>
 );
 export default Product;
