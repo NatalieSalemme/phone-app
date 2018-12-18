@@ -3,9 +3,10 @@ import { Jumbotron, Button, Image, Row, Col } from 'react-bootstrap';
 
 const Opening = () => (
   <Jumbotron className="opening-jumbotron" id="home">
-  <div className="divex"></div>
+  <div className="opening-container"></div>
     <Row className="opening-row">
-      <Col md={4} mdOffset={2} style={{marginTop: '4em'}}>
+      <Col md={4} mdOffset={2}
+      className="opening-col-1" >
         <h1 className="opening-header">Staying In Touch Everyday</h1>
         <br />
         <p className="opening-p">

@@ -1,10 +1,10 @@
 import React from 'react';
-import { Col } from 'react-bootstrap';
+import { Col, Image } from 'react-bootstrap';
 
 const Technology = () => (
   <div className="technology-container">
   <Col md={6}>
-      <img
+      <Image
         className="technology-img"
         src="https://cdn.pixabay.com/photo/2016/03/09/16/49/landscape-1246854_960_720.jpg"
         alt="#"

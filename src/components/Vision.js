@@ -10,7 +10,7 @@ class Vision extends React.Component {
   render() {
     return (
       <Row className="vision-container" id="vision">
-      <Col className="vision-content" md={4} mdOffset={2}>
+      <Col className="vision-content" md={6} mdOffset={1}>
         <h1>Vision</h1>
         <h3>Making your personal life truly personal</h3>
 
@@ -18,7 +18,7 @@ class Vision extends React.Component {
        <p id="faqs">We would like to make exchanging money easier for our users. We have partnered up with several cryptocurrency companies to find ways to make exchanging currency as seamless as possible. With a click of the button, users will be able to see the going rate for each currency and sell it with a click of the button. We will ensure that you are getting the lowest transaction fees possible whne using our transfer software.</p>
 
       </Col>
-      <Col md={6} className='vision-col-2'>
+      <Col md={5} className='vision-col-2'>
         <Image
 
           className="wow slideInUp vision-back-img" src="https://www.freeiconspng.com/uploads/iphone-6-png-10.png" responsive />
