@@ -343,13 +343,24 @@ html {
       margin: auto;
     }
   }
-  // .opening-image {
-  //   height: 20em;
-  //   width: 20em;
-  //   margin: auto;
-  //   margin-top: 1em;
-  //   padding-bottom: 3em;
-  // }
+  .opening-img {
+    height: 350px;
+    margin: auto;
+  }
+  .identity-vid {
+    height: 350px;
+    width: 470px;
+  }
+  .technology-img {
+    height: 360px;
+    margin-top: 1em;
+  }
+  .vision-col-2 {
+    display: none;
+  }
+  .about-container {
+    height: 60em;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -357,14 +368,8 @@ html {
   body {
     background-color: red;
   }
-  .opening-img {
-    height: 350px;
-
-    margin: auto;
-  }
   .technology-img {
     height: 400px;
-    margin-top: 1em;
   }
   .vision-container {
     height: 30em;
@@ -375,14 +380,16 @@ html {
       margin: auto;
     }
   }
-  .vision-col-2 {
-    display: none;
-  }
+
   .about-container {
     height: 48em;
     p {
       line-height: 1.5;
     }
+  }
+  .identity-vid {
+    width: 90%;
+    height: 30em;
   }
 }
 
@@ -427,7 +434,10 @@ html {
   .about-container {
     height: 30em;
   }
-
+.identity-vid {
+  width: 60%;
+  height: 30em;
+}
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */

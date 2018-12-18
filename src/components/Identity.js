@@ -9,6 +9,7 @@ const Identity = () => (
       time.
     </h3>
     <iframe
+      className="identity-vid"
       width="750"
       height="450"
       src="https://www.youtube.com/embed/znz8o-boH0E"
