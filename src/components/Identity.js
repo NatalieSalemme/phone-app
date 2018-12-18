@@ -13,9 +13,9 @@ const Identity = () => (
       height="450"
       src="https://www.youtube.com/embed/znz8o-boH0E"
       title="Phone review"
-      frameborder="0"
+      frameBorder="0"
       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen
+      allowFullScreen
     />
     <div className="card-container">
       <Card

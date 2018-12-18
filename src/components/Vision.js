@@ -18,12 +18,12 @@ class Vision extends React.Component {
        <p>We would like to make exchanging money easier for our users. We have partnered up with several cryptocurrency companies to find ways to make exchanging currency as seamless as possible. With a click of the button, users will be able to see the going rate for each currency and sell it with a click of the button. We will ensure that you are getting the lowest transaction fees possible whne using our transfer software.</p>
 
       </Col>
-      <Col md={6}>
+      <Col md={6} className='vision-col-2'>
         <Image
 
           className="wow slideInUp vision-back-img" src="https://www.freeiconspng.com/uploads/iphone-6-png-10.png" responsive />
           <Image
-            className="wow slideInUp vision-front-img delay-1s" src="https://www.freeiconspng.com/uploads/iphone-6-png-10.png" responsive />
+            className="wow slideInUp vision-front-img delay-1s fast" src="https://www.freeiconspng.com/uploads/iphone-6-png-10.png" responsive />
       </Col>
     </Row>
   );

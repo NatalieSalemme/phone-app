@@ -5,8 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 class Step extends React.Component {
   render() {
-    console.log(this.props.image);
-    return (
+      return (
       <div className="step">
         <Col md={4}>
           <h1>{this.props.number}</h1>

@@ -206,10 +206,12 @@ html {
   margin-left: -7em;
 }
 .vision-container {
+
   height: 100vh;
   background-image: linear-gradient(to left, #8BD0F8, #8BA1F8, #8B8BF8);
 }
 .vision-content {
+
   margin-top: 4em;
   h1 {
     color: white;
@@ -229,18 +231,37 @@ html {
 }
 
 .vision-back-img {
-  height: 500px;
-  width: 500px;
-  margin: 13em 0 0 -8em;
+// border: 2px dotted blue;
+  height: 400px;
+  width: 400px;
+  display: relative;
+  bottom: 200px;
+  margin: 12em 0 0 -8em;
 }
 .vision-front-img {
-  height: 700px;
-  width: 700px;
+// border: 2px dotted blue;
+  height: 600px;
+  width: 600px;
   position: relative;
   left: -50px;
-  bottom: 600px;
+  bottom: 480px;
 }
 
+.FAQ-container {
+  // border: 2px dotted red;
+  background-color: yellow;
+  display: absolute;
+  margin-top: -5em;
+}
+.vision-col-2 {
+  // border: 2px dotted green;
+  max-height: 670px;
+}
+
+// .testing {
+//   background-color: red;
+//   height: 400px;
+// }
 
 // /*----- MEDIA QUERIES -----*/
 //

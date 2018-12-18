@@ -7,6 +7,8 @@ import Product from './components/Product';
 import Identity from './components/Identity';
 import Technology from './components/Technology';
 import Vision from './components/Vision';
+import FAQ from './components/FAQ';
+import Privacy from './components/Privacy';
 
 class App extends Component {
   render() {
@@ -16,10 +18,13 @@ class App extends Component {
         <Opening />
         <Steps />
         <Product />
-
         <Identity />
         <Technology />
+
         <Vision />
+        <FAQ />
+        <Privacy />
+
       </div>
     );
   }
