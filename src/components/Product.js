@@ -14,7 +14,7 @@ const Product = () => (
             responsive
           />
         </Col>
-        <Col md={4} mdOffset={2} className="product-content" >
+        <Col md={5} mdOffset={1} className="product-content" >
           <h1>Share memories, create different groups</h1>
           <br />
           <p>

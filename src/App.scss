@@ -14,11 +14,8 @@ html {
   text-decoration: underline;
 }
 .opening-jumbotron {
-  height: 105vh;
   margin-top: -2em;
-  // background-image: linear-gradient(to right, #8BD3F8, rgb(62,183,215));
    background-image: linear-gradient(to right, rgb(62,183,215), #8BD3F8, #8BF8F7, );
-  // background-color: rgb(62, 183, 215);
 }
 .opening-row {
   margin-top: 9em;
@@ -106,9 +103,7 @@ html {
     padding-bottom: .7em;
   }
 }
-.product-img {
-  height: 90vh;
-}
+
 .identity-container {
   background-color: #DCDCDC;
   h1{
@@ -153,9 +148,11 @@ html {
   }
 }
 .steps-container {
+  // border: 2px dotted red;
   display: flex;
   align-items: center;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
   margin-top: -2.5em;
   // height: 20em;
@@ -276,7 +273,7 @@ html {
     margin: 1em 0;
   }
   p {
-    // color: white;
+    text-align: left;
     line-height: 2;
   }
   .about-img {
@@ -300,69 +297,88 @@ html {
   display: flex;
   justify-content: space-between;
 }
-// .testing {
-//   background-color: red;
-//   height: 400px;
-// }
 
-// /*----- MEDIA QUERIES -----*/
-//
-// /* Extra small devices (phones, 600px and down) */
-// @media only screen and (max-width: 600px) {
-//   body {
-//     background-color: blue;
-//   }
-//   .opening-image {
-//     height: 20em;
-//     width: 20em;
-//     margin: auto;
-//     margin-top: 1em;
-//     padding-bottom: 3em;
-//   }
-//   .identity-video {
-//     width: 350;
-//     height: 250;
-//   }
-// }
-//
-// /* Small devices (portrait tablets and large phones, 600px and up) */
-// @media only screen and (min-width: 600px) {
-//   body {
-//     background-color: green;
-//   }
-//   // .opening-image {
-//   //   height: 20em;
-//   //   width: 20em;
-//   //   margin: auto;
-//   //   margin-top: 1em;
-//   //   padding-bottom: 3em;
-//   // }
-// }
-//
-// /* Medium devices (landscape tablets, 768px and up) */
-// @media only screen and (min-width: 768px) {
-//   body {
-//     background-color: red;
-//   }
-//
-//
-// }
-//
-// /* Large devices (laptops/desktops, 992px and up) */
-// @media only screen and (min-width: 992px) {
-//   body {
-//     background-color: purple;
-//   }
-//
-// }
-//
-// /* Extra large devices (large laptops and desktops, 1200px and up) */
-// @media only screen and (min-width: 1200px) {
-// body {
-//   background-color: orange;
-// }
-//
-// }
-//
-//
-// /*----- MEDIA QUERIES -----*/
+
+/*----- MEDIA QUERIES -----*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: blue;
+  }
+  .product-img {
+    margin: auto;
+    height: 300px;
+    width: 300px;
+  }
+  // .opening-image {
+  //   height: 20em;
+  //   width: 20em;
+  //   margin: auto;
+  //   margin-top: 1em;
+  //   padding-bottom: 3em;
+  // }
+  // .identity-video {
+  //   width: 350;
+  //   height: 250;
+  // }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: green;
+  }
+  .product-img {
+    margin: auto;
+    height: 300px;
+    width: 300px;
+  }
+  // .opening-image {
+  //   height: 20em;
+  //   width: 20em;
+  //   margin: auto;
+  //   margin-top: 1em;
+  //   padding-bottom: 3em;
+  // }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: red;
+  }
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  body {
+    background-color: purple;
+  }
+  .opening-img {
+    width: 100%;
+  }
+  .product-img {
+    height: 90vh;
+    width: 100%;
+    margin-bottom: -1.4em;
+  }
+  .step {
+    flex-basis: 25%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+body {
+  background-color: orange;
+  margin-top: 2em;
+
+}
+
+}
+
+
+/*----- MEDIA QUERIES -----*/
