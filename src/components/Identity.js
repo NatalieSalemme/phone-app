@@ -48,7 +48,7 @@ const Identity = () => (
       />
 
       <Card
-        title="See Friendship History"
+        title="Friendship History"
         bullet1="With a click of a button, be able to see when you connected with someone"
         bullet2="Explore other connections in the 2nd, 3rd and 4th degree"
         bullet3="Select up to 4 people to find all photos that include all the tagged people"

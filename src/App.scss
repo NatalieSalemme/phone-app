@@ -289,7 +289,7 @@ html {
 
 }
 .social-icons {
-  width: 20%;
+  width: 300px;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -300,9 +300,6 @@ html {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  body {
-    background-color: blue;
-  }
   .product-img {
     margin: auto;
     height: 300px;
@@ -314,24 +311,37 @@ html {
       margin: auto;
     }
   }
-  // .opening-image {
-  //   height: 20em;
-  //   width: 20em;
-  //   margin: auto;
-  //   margin-top: 1em;
-  //   padding-bottom: 3em;
-  // }
-  // .identity-video {
-  //   width: 350;
-  //   height: 250;
-  // }
+  .opening-img {
+    margin: auto;
+    height: 300px;
+  }
+  .step {
+    margin-left: -8em;
+  }
+  .identity-vid {
+    height: 20em;
+    width: 27em;
+  }
+  .technology-img {
+    height: 20em;
+    width: 27em;
+  }
+  .vision-content {
+    p, h3 {
+      width: 94%;
+      margin: auto;
+    }
+  }
+  .vision-col-2 {
+    display: none;
+  }
+  .about-container {
+    height: 65em;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-  body {
-    background-color: green;
-  }
   .product-img {
     margin: auto;
     height: 300px;
@@ -361,25 +371,23 @@ html {
   .about-container {
     height: 60em;
   }
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  body {
-    background-color: red;
-  }
-  .technology-img {
-    height: 400px;
-  }
-  .vision-container {
-    height: 30em;
-  }
   .vision-content {
     p {
       width: 94%;
       margin: auto;
     }
   }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .technology-img {
+    height: 400px;
+  }
+  .vision-container {
+    height: 30em;
+  }
+
 
   .about-container {
     height: 48em;
@@ -395,9 +403,6 @@ html {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  body {
-    background-color: purple;
-  }
   .opening-img {
     height: 500px;
   }
@@ -443,9 +448,7 @@ html {
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 body {
-  background-color: orange;
   margin-top: 2em;
-
 }
 .technology-container {
   height: 90vh;
@@ -470,9 +473,6 @@ body {
 .opening-container {
   padding-bottom: 1em;
 }
-// .opening-col-1 {
-//   margin-top: 4em;
-// }
 }
 
 
