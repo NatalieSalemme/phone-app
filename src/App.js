@@ -9,6 +9,7 @@ import Technology from './components/Technology';
 import Vision from './components/Vision';
 import FAQ from './components/FAQ';
 import Privacy from './components/Privacy';
+import About from './components/About';
 
 class App extends Component {
   render() {
@@ -24,7 +25,7 @@ class App extends Component {
         <Vision />
         <FAQ />
         <Privacy />
-
+        <About />
       </div>
     );
   }

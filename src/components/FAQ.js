@@ -2,9 +2,10 @@ import React from 'react';
 import { PanelGroup, Panel } from 'react-bootstrap';
 
 const FAQ = () => (
-  <div>
+  <div >
     <h1 className="faq-header"> FAQs</h1>
-  <PanelGroup accordion id="accordion-example">
+  <PanelGroup accordion
+    className="panel-container" id="accordion-example">
     <Panel eventKey="1">
       <Panel.Heading>
         <Panel.Title toggle>Does I-C-It cost money to use?</Panel.Title>
@@ -17,7 +18,7 @@ const FAQ = () => (
       <Panel.Heading>
         <Panel.Title toggle>Do you sell our personal information?</Panel.Title>
       </Panel.Heading>
-      <Panel.Body collapsible>
+      <Panel.Body  collapsible>
         We respect our users' privacy and would never sell any of our users' information to 3rd party businessess. All your information that you put up on your profile is considered your own property and you will not have to worry about anything being sold or sent to someone else.
       </Panel.Body>
     </Panel>
