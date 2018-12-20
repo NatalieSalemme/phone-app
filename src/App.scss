@@ -10,22 +10,23 @@ html {
 .App {
   text-align: center;
 }
+
+/*-----MENU -----*/
 .nav-link:hover {
   text-decoration: underline;
 }
+/*-----MENU-----*/
+
 
 /*-----OPENING -----*/
 .opening-jumbotron {
   margin-top: -2em;
    background-image: linear-gradient(to right, rgb(62,183,215), #8BD3F8, #8BF8F7, );
 }
-
-
 .opening-row {
   margin-top: 9em;
   color: white;
 }
-
   .opening-header,
   .opening-p,
   .opening-btn {
@@ -41,21 +42,18 @@ html {
     animation-duration: 1.5s;
   }
 
-
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes fade {
   0%   {background-color:red; left: 300; top:0px;}
    50%  {background-color:blue; left:200px; top:200px;}
   100% {background-color:red; left:0px; top:0px;}
 }
-
 /* Standard syntax */
 @keyframes fade {
   0%   {left: -200px; top:0px;}
 
   100% {left: 0px; top:0px;}
 }
-
 .opening-img {
   height: 35em;
   margin: -2em 0 0 4em;
@@ -84,63 +82,10 @@ html {
 
   100% {left:200px; top:0px;}
 }
-
-
 /*-----OPENING -----*/
 
-.product-content {
-  margin-top: 3.5em;
-  p {
-    color: gray;
-    font-size: 15px;
-    text-align: left;
-    padding-bottom: .7em;
-  }
-}
 
-.identity-container {
-  background-color: #DCDCDC;
-  h1{
-    font-weight: 200;
-    font-size: 50px;
-    padding-top: 2em;
-  }
-  h3 {
-    font-weight: 200;
-    font-size: 30px;
-    margin: 1.5em 0 2em 0;
-  }
-}
-.card-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin-top: 3em;
-}
-.card {
-  border: 1px solid lightgray;
-  margin-bottom: 1em;
-  background-color: white;
-  width: 40em;
-  height: 20em;
-  min-height: 15em;
-
-  h1 {
-    color: darken(lightblue, 40%);
-    margin: -1.5em 0 .5em 0;
-  }
-  li {
-    text-align: left;
-    font-size: 17px;
-    color: gray;
-    font-weight: 300;
-    padding-left: 1.2em;
-    list-style-type: none;
-  }
-  li::before {
-    content: '-'
-  }
-}
+/*-----STEPS -----*/
 .steps-container {
   // border: 2px dotted red;
   display: flex;
@@ -168,17 +113,77 @@ html {
   font-size: 44px;
   margin-top: .4em;
 }
+/*-----STEPS -----*/
+
+/*-----PRODUCT -----*/
+.product-content {
+  margin-top: 3.5em;
+  p {
+    color: gray;
+    font-size: 15px;
+    text-align: left;
+    padding-bottom: .7em;
+  }
+}
+
+/*-----PRODUCT -----*/
+
+/*-----IDENTITY-----*/
+.identity-container {
+  background-color: #DCDCDC;
+  h1{
+    font-weight: 200;
+    font-size: 50px;
+    padding-top: 2em;
+  }
+  h3 {
+    font-weight: 200;
+    font-size: 30px;
+    margin: 1.5em 0 2em 0;
+  }
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 3em;
+}
+.card {
+  border: 1px solid lightgray;
+  margin-bottom: 1em;
+  background-color: white;
+  width: 40em;
+  height: 20em;
+  min-height: 15em;
+  h1 {
+    color: darken(lightblue, 40%);
+    margin: -1.5em 0 .5em 0;
+  }
+  li {
+    text-align: left;
+    font-size: 17px;
+    color: gray;
+    font-weight: 300;
+    padding-left: 1.2em;
+    list-style-type: none;
+  }
+  li::before {
+    content: '-'
+  }
+}
+
+/*-----IDENTITY-----*/
+
+
+/*-----TECHNOLOGY----*/
 .technology-container {
   background-image: linear-gradient(to right, #8BC8F8, #37A4FB, #18478C);
-
   h1 {
-
     color: white;
     font-size: 65px;
     margin-top: 1em;
   }
   h3 {
-
     color: white;
     margin-bottom: 2em;
   }
@@ -190,14 +195,14 @@ html {
     line-height: 2;
   }
 }
+/*-----TECHNOLOGY-----*/
 
+
+/*-----VISION----*/
 .vision-container {
-
-
   background-image: linear-gradient(to left, #8BD0F8, #8BA1F8, #8B8BF8);
 }
 .vision-content {
-
   margin-top: 4em;
   h1 {
     color: white;
@@ -215,7 +220,6 @@ html {
     font-weight: lighter;
   }
 }
-
 .vision-back-img {
 // border: 2px dotted blue;
   height: 400px;
@@ -232,16 +236,19 @@ html {
   left: -50px;
   bottom: 480px;
 }
+.vision-col-2 {
+  // border: 2px dotted green;
+  max-height: 670px;
+}
+/*-----VISION-----*/
 
+
+/*-----FAQ-----*/
 .FAQ-container {
   // border: 2px dotted red;
   background-color: yellow;
   display: absolute;
   margin-top: -5em;
-}
-.vision-col-2 {
-  // border: 2px dotted green;
-  max-height: 670px;
 }
 .faq-header {
   font-weight: 200;
@@ -255,6 +262,10 @@ html {
   margin-bottom: 2em;
 
 }
+/*-----FAQ-----*/
+
+
+/*-----ABOUT-----*/
 .about-container {
   height: 470px;
   background-color: rgb(219, 228, 231);
@@ -274,6 +285,10 @@ html {
     margin-top: 5em;
   }
 }
+
+/*-----ABOUT----*/
+
+/*-----FOOTER-----*/
 .footer {
   height: 200px;
   background-color: blue;
@@ -288,6 +303,7 @@ html {
   display: flex;
   justify-content: space-between;
 }
+/*-----FOOTER-----*/
 
 
 /*----- MEDIA QUERIES -----*/
