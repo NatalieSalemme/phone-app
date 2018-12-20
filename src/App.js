@@ -8,18 +8,14 @@ import Identity from './components/Identity';
 import Technology from './components/Technology';
 import Vision from './components/Vision';
 import FAQ from './components/FAQ';
-import Privacy from './components/Privacy';
 import About from './components/About';
 import Footer from './components/Footer';
 
-
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faIgloo } from '@fortawesome/free-solid-svg-icons';
 
-library.add(fab, faIgloo)
-
+library.add(fab, faIgloo);
 
 class App extends Component {
   render() {
@@ -33,7 +29,6 @@ class App extends Component {
         <Technology />
         <Vision />
         <FAQ />
-        <Privacy />
         <About />
         <Footer />
       </div>

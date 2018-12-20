@@ -13,10 +13,14 @@ html {
 .nav-link:hover {
   text-decoration: underline;
 }
+
+/*-----OPENING -----*/
 .opening-jumbotron {
   margin-top: -2em;
    background-image: linear-gradient(to right, rgb(62,183,215), #8BD3F8, #8BF8F7, );
 }
+
+
 .opening-row {
   margin-top: 9em;
   color: white;
@@ -25,6 +29,8 @@ html {
   .opening-header,
   .opening-p,
   .opening-btn {
+    margin-top: 1em;
+    font-size: 24px;
     position: relative;
     -webkit-animation-name: fade; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 1.5s; /* Safari 4.0 - 8.0 */
@@ -34,6 +40,7 @@ html {
     animation-timing-function: linear;
     animation-duration: 1.5s;
   }
+
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes fade {
@@ -48,12 +55,6 @@ html {
 
   100% {left: 0px; top:0px;}
 }
-
-
-
-
-
-
 
 .opening-img {
   height: 35em;
@@ -85,14 +86,7 @@ html {
 }
 
 
-
-
-
-.opening-btn {
-  margin-top: 1em;
-  font-size: 24px;
-}
-
+/*-----OPENING -----*/
 
 .product-content {
   margin-top: 3.5em;
