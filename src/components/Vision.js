@@ -22,6 +22,7 @@ class Vision extends React.Component {
             not only save precious time for our users, but be a great way to
             manage all of your notifications in one place.{' '}
           </p>
+          <br />
           <p id="faqs">
             We would like to make exchanging money easier for our users. We have
             partnered up with several cryptocurrency companies to find ways to
