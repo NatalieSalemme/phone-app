@@ -6,8 +6,8 @@ const About = () => (
     <Col md={4}>
       <Image
         className="about-img"
-        alt="Natalie Salemme" src="http://i67.tinypic.com/16hqnbr.jpg" responsive />
-        <h5>Founder: Natalie Salemme</h5>
+        alt="Natalie Salemme" src={require('../images/natalie.jpg')} responsive />
+
 
     </Col>
     <Col md={8}>

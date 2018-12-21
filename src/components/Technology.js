@@ -6,7 +6,7 @@ const Technology = () => (
   <Col md={6}>
       <Image
         className="technology-img"
-        src="https://cdn.pixabay.com/photo/2016/03/09/16/49/landscape-1246854_960_720.jpg"
+        src={require('../images/landscape.jpg')}
         alt="#"
       />
     </Col>
