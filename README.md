@@ -1,6 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Phone App https://glacial-thicket-88754.herokuapp.com/
+## Live Demo 
+https://salemme-phone-app.herokuapp.com/
 
 ## Available Scripts
 
